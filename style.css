@@ -1,0 +1,81 @@
+.a1{
+    outline: none;
+    Width: 315px;
+    Height: 35px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: font1;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.a2{
+    outline: none;
+    Width: 315px;
+    Height: 35px;
+    border: 1px solid #E0E0E0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: font1;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.a3{
+    Width: 329px;
+    Height: 45px;
+    border: 0px solid #E0E0E0;
+    border-radius: 10px;
+    background-color: #FFD43A;
+    font-family: font1;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-top: -15px;
+    color: #000000;
+}
+form{
+    outline: none;
+    Width: 378px;
+    Height: 274px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+}
+.d1{
+    margin-top: 33px;
+    margin-left: 25px;   
+}
+.b1{
+    margin-top: 20px;
+    font-family: font1;
+}
+.b2{
+    padding-top: 28px;
+    font-family: font1;
+}
+
+.a1:hover{
+    border: 1px solid #BBB400;
+    border-radius: 4px;
+}
+.a2:hover{
+    border: 1px solid #BBB400;
+    border-radius: 4px;
+}
+.a3:hover{
+    border-radius: 22.5px;
+    background-color:#BBB400;
+    font-size: 20px;
+    color: #7C0000;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(Fonts/Roboto-Regular.ttf);
+}
+body {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
